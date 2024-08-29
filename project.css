@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    font-family: sans-serif;
+    width: 100%;
+}
+
+nav{
+    background-color: green;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10rem;
+}
+
+
+.h3 {
+    padding-left: 4rem;
+    padding-top: 0.7rem;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8rem;
+    list-style-type: none;
+    padding-top: 0.7rem;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    background-color: black;
+    height: 40rem;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+    color: white;
+}
+
+.about_me {
+    color: green;
+    text-align: center;
+}
+
+.second_hr {
+    width: 30px;
+}
+.about_me{
+    justify-content: center;
+}
+
+.main {
+    color: white;
+    padding-top: 5rem;
+    padding-left: 13rem;
+}
+
+.paragraph_1{
+    padding-left: 12.6rem;
+
+}
+
+.float {
+    float: left;
+    margin-right: 5rem;
+}
+
+.paragraph_2{
+    padding-left: 12.5rem;
+}
+
+.main_project {
+    background-color: rgba(160, 147, 133, 0.781);
+    height: 50rem
+}
+
+.topic {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.list {
+    padding-left: 10rem;
+    padding-top: 2rem;
+}
+
+.my_list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.achievements {
+    background-color: black;
+    height: 25rem;
+}
+ 
+.topic2 {
+    color: green;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.content2{
+    padding-top: 2rem;
+    padding-left: 4rem;
+    color: white;
+}
+.small_list{
+    list-style-type: circle;
+}
+
+.contact {
+    background-color: rgb(156, 151, 151);
+    height: 50rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.topic3{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.details {
+    color: white;
+    background-color: black;
+    width: 40%;
+    height: 80%;
+    justify-content: center;
+    padding-block: 10rem;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+
+}
+
+.container{
+    justify-content: center;
+    padding-left: 4rem;
+}
+
+.bar {
+    width: 70%;
+}
+
+.message_bar{
+    width: 70%;
+    height: 15rem;
+}
+
+.submit {
+    width: 5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
